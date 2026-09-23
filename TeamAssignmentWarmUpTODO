@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class WarmUp {
   // = = = = = O b j e c t s C h a l l e n g e s = = = = =
   /**
-  *@author Addie Hurst for TODOs for ObjectsChallenges section. CS 1410 provided the original material except TODO. 
+  *@author Addie Hurst for TODOs for ObjectsChallenges section
   * Returns the distance between the points {@code p1} and {@code p2}.
   *
   * <pre>
@@ -25,6 +25,13 @@ public class WarmUp {
   */
   public static double distance(Point p1, Point p2) {
       return 0.0; 
+
+      //provides the distance between p1 and p2.
+      //p1.distance(p2);
+      //returns the distance between p1 and p2
+      //return p1.distance(p2);
+
+      
   }
   /**
   * Returns the greatest distance from the origin (0, 0) among three points.
