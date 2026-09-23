@@ -8,7 +8,7 @@ import java.util.ArrayList;
 * @author CS Starter Code + Addie Hurst, Karrsten Hansen 
 */
 public class WarmUp {
- // = = = = = O b j e c t s C h a l l e n g e s = = = = =
+  // = = = = = O b j e c t s C h a l l e n g e s = = = = =
   /**
   *@author Addie Hurst for TODOs for ObjectsChallenges section
   * Returns the distance between the points {@code p1} and {@code p2}.
@@ -44,8 +44,6 @@ public class WarmUp {
   * @return greatest distance from origin among p1, p2, and p3
   */
   public static double greatestDistanceFromOrigin(Point p1, Point p2, Point p3) {
-	  	//return 0.0; 
-	  	// TODO
 	  double greatestDistanceP1 = p1.distance();
 	  double greatestDistanceP2 = p2.distance();
 	  double greatestDistanceP3 = p3.distance();
@@ -71,12 +69,15 @@ p.
   * @return area based on the absolute values of x and y.
   */
   public static double area(Point p) {
-	  	//return 0.0; 
 	  	int xCoordinateVariable = p.getX();
 	  	int yCoordinateVariable = p.getY();
-	  	//area formula calculation
-	  	//convert that area formula into java syntax?
+	  	//absolute value to account for negatives properly
+	  	xCoordinateVariable = Math.abs(xCoordinateVariable);
+	  	yCoordinateVariable = Math.abs(yCoordinateVariable);
+	  	//return area
+	  	return xCoordinateVariable * yCoordinateVariable;
   }
+
   // = = = = = A r r a y s C h a l l e n g e s = = = = =
   /**
   *@author Karrsten Hansen completed the TODO for this section, CS 1410 provided the original material except TODO. 
