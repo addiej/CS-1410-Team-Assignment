@@ -63,6 +63,7 @@ p.
 
   // = = = = = A r r a y s C h a l l e n g e s = = = = =
   /**
+  *@author Karrsten Hansen completed the TODO for this section, CS 1410 provided the original material except TODO. 
   * Returns an array of length n containing the sequence 0, 1, 2, ..., n-1.
   *
   * <pre>
