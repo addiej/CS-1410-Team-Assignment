@@ -49,7 +49,9 @@ public class WarmUp {
 	  double greatestDistanceP1 = p1.distance();
 	  double greatestDistanceP2 = p2.distance();
 	  double greatestDistanceP3 = p3.distance();
-	  //return max(greatestDistanceP1, greatestDistanceP2, greatestDistanceP3);
+
+	  double greatestp1p2comparison = Math.max(greatestDistanceP1, greatestDistanceP2);
+	  return Math.max(greatestp1p2comparison, greatestDistanceP3);
 	  	
   }
   /**
