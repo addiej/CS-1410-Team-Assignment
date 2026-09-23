@@ -8,7 +8,7 @@ import java.util.ArrayList;
 * @author CS Starter Code + Addie Hurst, Karrsten Hansen 
 */
 public class WarmUp {
-  // = = = = = O b j e c t s C h a l l e n g e s = = = = =
+ // = = = = = O b j e c t s C h a l l e n g e s = = = = =
   /**
   *@author Addie Hurst for TODOs for ObjectsChallenges section
   * Returns the distance between the points {@code p1} and {@code p2}.
@@ -71,9 +71,12 @@ p.
   * @return area based on the absolute values of x and y.
   */
   public static double area(Point p) {
-  return 0.0; // TODO
+	  	//return 0.0; 
+	  	int xCoordinateVariable = p.getX();
+	  	int yCoordinateVariable = p.getY();
+	  	//area formula calculation
+	  	//convert that area formula into java syntax?
   }
-
   // = = = = = A r r a y s C h a l l e n g e s = = = = =
   /**
   *@author Karrsten Hansen completed the TODO for this section, CS 1410 provided the original material except TODO. 
