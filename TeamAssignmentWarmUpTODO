@@ -169,7 +169,8 @@ list.
 * @param value value to insert at the front and back
 */
 public static void addFrontAndBack(ArrayList<Integer> list, int value) {
-// TODO
+  list.add(0, value);
+  list.add(value);
 }
 /**
 * Removes the element {@code target} from the list only if it appears at the
