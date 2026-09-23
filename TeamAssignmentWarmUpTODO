@@ -254,6 +254,8 @@ int var = list.size();
 * @param list list to modify (assume non-null)
 */
 public static void duplicateEach(ArrayList<String> list) {
-// TODO
+	for (int var = 0; var < list.size(); var += 2) {
+		list.add(var + 1, list.get(var));
+	}
 }
 }
