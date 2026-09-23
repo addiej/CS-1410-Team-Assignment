@@ -140,7 +140,17 @@ public static int[] removeAt(int[] a, int index) {
 if (index < 0 || index >= a.length) {
 throw new IllegalArgumentException("index is out of range.");
 }
-return null; // TODO
+else {
+  int[] lessArray = new int[a.length - 1];
+  int lessArrayVar = 0;
+  for (int var = 0; var <= lessArray.length; var++) {
+    if (var != index) {
+    lessArray[lessArrayVar] = a[var];
+    lessArrayVar++;
+    }
+  }
+  return lessArray;
+}
 }
 // = = = = = A r r a y L i s t C h a l l e n g e s = = = = =
 /**
