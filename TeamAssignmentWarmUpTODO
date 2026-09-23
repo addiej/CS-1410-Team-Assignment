@@ -106,7 +106,13 @@ else {
 * @return new array containing all elements of a, then value
 */
 public static int[] append(int[] a, int value) {
-return null; // TODO
+  int[] newOne = new int[a.length + 1];
+  for (int var = 0; var < a.length; var++) {
+    newOne[var] = a[var];
+  }
+  newOne[a.length] = value;
+
+  return newOne; 
 }
 /**  
 * Returns a new array with the element at {@code index} removed.
