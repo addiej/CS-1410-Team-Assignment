@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class WarmUp {
   // = = = = = O b j e c t s C h a l l e n g e s = = = = =
   /**
+  *@author Addie Hurst for TODOs for ObjectsChallenges section
   * Returns the distance between the points {@code p1} and {@code p2}.
   *
   * <pre>
