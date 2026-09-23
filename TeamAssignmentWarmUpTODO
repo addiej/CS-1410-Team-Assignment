@@ -44,7 +44,13 @@ public class WarmUp {
   * @return greatest distance from origin among p1, p2, and p3
   */
   public static double greatestDistanceFromOrigin(Point p1, Point p2, Point p3) {
-  return 0.0; // TODO
+	  	//return 0.0; 
+	  	// TODO
+	  double greatestDistanceP1 = p1.distance();
+	  double greatestDistanceP2 = p2.distance();
+	  double greatestDistanceP3 = p3.distance();
+	  //return max(greatestDistanceP1, greatestDistanceP2, greatestDistanceP3);
+	  	
   }
   /**
   * Returns the area of the rectangle formed by the origin (0, 0) and the point
@@ -65,6 +71,7 @@ p.
   public static double area(Point p) {
   return 0.0; // TODO
   }
+
   // = = = = = A r r a y s C h a l l e n g e s = = = = =
   /**
   *@author Karrsten Hansen completed the TODO for this section, CS 1410 provided the original material except TODO. 
