@@ -216,7 +216,24 @@ returns true
 * @return true if at least one element was removed; false otherwise
 */
 public static boolean removeIfAtEnds(ArrayList<Point> list, Point target) {
-return false; // TODO
+int var = list.size();
+	if (list.size() == 0) {
+		return false;
+	}
+	if (list.get(0).equals(target)) {
+		list.remove(0);
+	}
+	if (list.size() > 0) {
+		if (list.get(list.size() - 1).equals(target)) {
+			list.remove(list.size() - 1);
+		}
+	}
+	if (list.size() < var) {
+		return true;
+	}
+	else {
+		return false;
+	}
 }
 /**
 * Duplicates each element in the list by inserting a copy of each element
