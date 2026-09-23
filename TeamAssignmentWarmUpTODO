@@ -8,7 +8,7 @@ import java.util.ArrayList;
 * @author CS Starter Code + Addie Hurst, Karrsten Hansen 
 */
 public class WarmUp {
-  / = = = = = O b j e c t s C h a l l e n g e s = = = = =
+  // = = = = = O b j e c t s C h a l l e n g e s = = = = =
   /**
   * Returns the distance between the points {@code p1} and {@code p2}.
   *
